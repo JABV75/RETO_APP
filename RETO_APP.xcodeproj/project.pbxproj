@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED275EAE29256160006CA2D5 /* Logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = ED275EAD29256160006CA2D5 /* Logo.PNG */; };
+		ED275EB229256FF5006CA2D5 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = ED275EB129256FF5006CA2D5 /* aboutus.png */; };
+		ED38E56E29241E9900A30ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E56D29241E9900A30ED1 /* AppDelegate.swift */; };
+		ED38E57029241E9900A30ED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E56F29241E9900A30ED1 /* SceneDelegate.swift */; };
+		ED38E57229241E9900A30ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E57129241E9900A30ED1 /* ViewController.swift */; };
+		ED38E57529241E9900A30ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED38E57329241E9900A30ED1 /* Main.storyboard */; };
+		ED38E57729241E9A00A30ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED38E57629241E9A00A30ED1 /* Assets.xcassets */; };
+		ED38E57A29241E9A00A30ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED38E57829241E9A00A30ED1 /* LaunchScreen.storyboard */; };
+		ED38E58529241E9A00A30ED1 /* RETO_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E58429241E9A00A30ED1 /* RETO_APPTests.swift */; };
+		ED38E58F29241E9A00A30ED1 /* RETO_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E58E29241E9A00A30ED1 /* RETO_APPUITests.swift */; };
+		ED38E59129241E9A00A30ED1 /* RETO_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38E59029241E9A00A30ED1 /* RETO_APPUITestsLaunchTests.swift */; };
+		ED4189BB2924A5FD00A9941B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4189BA2924A5FD00A9941B /* menu.png */; };
+		EDF1BDAA292448520041C04D /* HOME.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF1BDA7292448520041C04D /* HOME.png */; };
+		EDF1BDAB292448520041C04D /* PROFILE.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF1BDA8292448520041C04D /* PROFILE.png */; };
+		EDF1BDAC292448520041C04D /* SETTINGS.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF1BDA9292448520041C04D /* SETTINGS.png */; };
+		EDF1BDAE292495330041C04D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF1BDAD292495330041C04D /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED38E58129241E9A00A30ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED38E56229241E9900A30ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED38E56929241E9900A30ED1;
+			remoteInfo = RETO_APP;
+		};
+		ED38E58B29241E9A00A30ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED38E56229241E9900A30ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED38E56929241E9900A30ED1;
+			remoteInfo = RETO_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED275EAD29256160006CA2D5 /* Logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.PNG; path = imgs/Logo.PNG; sourceTree = SOURCE_ROOT; };
+		ED275EB129256FF5006CA2D5 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutus.png; path = imgs/aboutus.png; sourceTree = SOURCE_ROOT; };
+		ED38E56A29241E9900A30ED1 /* RETO_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETO_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED38E56D29241E9900A30ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED38E56F29241E9900A30ED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED38E57129241E9900A30ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED38E57429241E9900A30ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED38E57629241E9A00A30ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED38E57929241E9A00A30ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED38E57B29241E9A00A30ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED38E58029241E9A00A30ED1 /* RETO_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETO_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED38E58429241E9A00A30ED1 /* RETO_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETO_APPTests.swift; sourceTree = "<group>"; };
+		ED38E58A29241E9A00A30ED1 /* RETO_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETO_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED38E58E29241E9A00A30ED1 /* RETO_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETO_APPUITests.swift; sourceTree = "<group>"; };
+		ED38E59029241E9A00A30ED1 /* RETO_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETO_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED4189BA2924A5FD00A9941B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = imgs/menu.png; sourceTree = SOURCE_ROOT; };
+		EDF1BDA7292448520041C04D /* HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOME.png; path = imgs/HOME.png; sourceTree = SOURCE_ROOT; };
+		EDF1BDA8292448520041C04D /* PROFILE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PROFILE.png; path = imgs/PROFILE.png; sourceTree = SOURCE_ROOT; };
+		EDF1BDA9292448520041C04D /* SETTINGS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SETTINGS.png; path = imgs/SETTINGS.png; sourceTree = SOURCE_ROOT; };
+		EDF1BDAD292495330041C04D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED38E56729241E9900A30ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E57D29241E9A00A30ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E58729241E9A00A30ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED38E56129241E9900A30ED1 = {
+			isa = PBXGroup;
+			children = (
+				ED38E56C29241E9900A30ED1 /* RETO_APP */,
+				ED38E58329241E9A00A30ED1 /* RETO_APPTests */,
+				ED38E58D29241E9A00A30ED1 /* RETO_APPUITests */,
+				ED38E56B29241E9900A30ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED38E56B29241E9900A30ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED38E56A29241E9900A30ED1 /* RETO_APP.app */,
+				ED38E58029241E9A00A30ED1 /* RETO_APPTests.xctest */,
+				ED38E58A29241E9A00A30ED1 /* RETO_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED38E56C29241E9900A30ED1 /* RETO_APP */ = {
+			isa = PBXGroup;
+			children = (
+				ED38E56D29241E9900A30ED1 /* AppDelegate.swift */,
+				ED38E56F29241E9900A30ED1 /* SceneDelegate.swift */,
+				ED38E57129241E9900A30ED1 /* ViewController.swift */,
+				EDF1BDAD292495330041C04D /* ViewController2.swift */,
+				ED38E57329241E9900A30ED1 /* Main.storyboard */,
+				ED38E57629241E9A00A30ED1 /* Assets.xcassets */,
+				ED38E57829241E9A00A30ED1 /* LaunchScreen.storyboard */,
+				ED38E57B29241E9A00A30ED1 /* Info.plist */,
+				ED275EB129256FF5006CA2D5 /* aboutus.png */,
+				ED275EAD29256160006CA2D5 /* Logo.PNG */,
+				ED4189BA2924A5FD00A9941B /* menu.png */,
+				EDF1BDA7292448520041C04D /* HOME.png */,
+				EDF1BDA8292448520041C04D /* PROFILE.png */,
+				EDF1BDA9292448520041C04D /* SETTINGS.png */,
+			);
+			path = RETO_APP;
+			sourceTree = "<group>";
+		};
+		ED38E58329241E9A00A30ED1 /* RETO_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED38E58429241E9A00A30ED1 /* RETO_APPTests.swift */,
+			);
+			path = RETO_APPTests;
+			sourceTree = "<group>";
+		};
+		ED38E58D29241E9A00A30ED1 /* RETO_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED38E58E29241E9A00A30ED1 /* RETO_APPUITests.swift */,
+				ED38E59029241E9A00A30ED1 /* RETO_APPUITestsLaunchTests.swift */,
+			);
+			path = RETO_APPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED38E56929241E9900A30ED1 /* RETO_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED38E59429241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APP" */;
+			buildPhases = (
+				ED38E56629241E9900A30ED1 /* Sources */,
+				ED38E56729241E9900A30ED1 /* Frameworks */,
+				ED38E56829241E9900A30ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RETO_APP;
+			productName = RETO_APP;
+			productReference = ED38E56A29241E9900A30ED1 /* RETO_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED38E57F29241E9A00A30ED1 /* RETO_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED38E59729241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APPTests" */;
+			buildPhases = (
+				ED38E57C29241E9A00A30ED1 /* Sources */,
+				ED38E57D29241E9A00A30ED1 /* Frameworks */,
+				ED38E57E29241E9A00A30ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED38E58229241E9A00A30ED1 /* PBXTargetDependency */,
+			);
+			name = RETO_APPTests;
+			productName = RETO_APPTests;
+			productReference = ED38E58029241E9A00A30ED1 /* RETO_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED38E58929241E9A00A30ED1 /* RETO_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED38E59A29241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APPUITests" */;
+			buildPhases = (
+				ED38E58629241E9A00A30ED1 /* Sources */,
+				ED38E58729241E9A00A30ED1 /* Frameworks */,
+				ED38E58829241E9A00A30ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED38E58C29241E9A00A30ED1 /* PBXTargetDependency */,
+			);
+			name = RETO_APPUITests;
+			productName = RETO_APPUITests;
+			productReference = ED38E58A29241E9A00A30ED1 /* RETO_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED38E56229241E9900A30ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					ED38E56929241E9900A30ED1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					ED38E57F29241E9A00A30ED1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = ED38E56929241E9900A30ED1;
+					};
+					ED38E58929241E9A00A30ED1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = ED38E56929241E9900A30ED1;
+					};
+				};
+			};
+			buildConfigurationList = ED38E56529241E9900A30ED1 /* Build configuration list for PBXProject "RETO_APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED38E56129241E9900A30ED1;
+			productRefGroup = ED38E56B29241E9900A30ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED38E56929241E9900A30ED1 /* RETO_APP */,
+				ED38E57F29241E9A00A30ED1 /* RETO_APPTests */,
+				ED38E58929241E9A00A30ED1 /* RETO_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED38E56829241E9900A30ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF1BDAB292448520041C04D /* PROFILE.png in Resources */,
+				EDF1BDAA292448520041C04D /* HOME.png in Resources */,
+				ED38E57A29241E9A00A30ED1 /* LaunchScreen.storyboard in Resources */,
+				ED38E57729241E9A00A30ED1 /* Assets.xcassets in Resources */,
+				ED275EAE29256160006CA2D5 /* Logo.PNG in Resources */,
+				ED275EB229256FF5006CA2D5 /* aboutus.png in Resources */,
+				ED4189BB2924A5FD00A9941B /* menu.png in Resources */,
+				EDF1BDAC292448520041C04D /* SETTINGS.png in Resources */,
+				ED38E57529241E9900A30ED1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E57E29241E9A00A30ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E58829241E9A00A30ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED38E56629241E9900A30ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED38E57229241E9900A30ED1 /* ViewController.swift in Sources */,
+				EDF1BDAE292495330041C04D /* ViewController2.swift in Sources */,
+				ED38E56E29241E9900A30ED1 /* AppDelegate.swift in Sources */,
+				ED38E57029241E9900A30ED1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E57C29241E9A00A30ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED38E58529241E9A00A30ED1 /* RETO_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED38E58629241E9A00A30ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED38E59129241E9A00A30ED1 /* RETO_APPUITestsLaunchTests.swift in Sources */,
+				ED38E58F29241E9A00A30ED1 /* RETO_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED38E58229241E9A00A30ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED38E56929241E9900A30ED1 /* RETO_APP */;
+			targetProxy = ED38E58129241E9A00A30ED1 /* PBXContainerItemProxy */;
+		};
+		ED38E58C29241E9A00A30ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED38E56929241E9900A30ED1 /* RETO_APP */;
+			targetProxy = ED38E58B29241E9A00A30ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED38E57329241E9900A30ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED38E57429241E9900A30ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED38E57829241E9A00A30ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED38E57929241E9A00A30ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED38E59229241E9A00A30ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED38E59329241E9A00A30ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED38E59529241E9A00A30ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RETO_APP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED38E59629241E9A00A30ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RETO_APP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED38E59829241E9A00A30ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETO_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RETO_APP";
+			};
+			name = Debug;
+		};
+		ED38E59929241E9A00A30ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETO_APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RETO_APP";
+			};
+			name = Release;
+		};
+		ED38E59B29241E9A00A30ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETO_APP;
+			};
+			name = Debug;
+		};
+		ED38E59C29241E9A00A30ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETO_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED38E56529241E9900A30ED1 /* Build configuration list for PBXProject "RETO_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED38E59229241E9A00A30ED1 /* Debug */,
+				ED38E59329241E9A00A30ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED38E59429241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED38E59529241E9A00A30ED1 /* Debug */,
+				ED38E59629241E9A00A30ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED38E59729241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED38E59829241E9A00A30ED1 /* Debug */,
+				ED38E59929241E9A00A30ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED38E59A29241E9A00A30ED1 /* Build configuration list for PBXNativeTarget "RETO_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED38E59B29241E9A00A30ED1 /* Debug */,
+				ED38E59C29241E9A00A30ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED38E56229241E9900A30ED1 /* Project object */;
+}
