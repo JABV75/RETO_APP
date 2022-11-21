@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527EF994292B0A6C00C36AE4 /* GPSInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 527EF993292B0A6B00C36AE4 /* GPSInicio.png */; };
+		527EF996292B0D1700C36AE4 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 527EF995292B0D1700C36AE4 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */; };
 		ED0B343E29259A8E0018E46A /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0B343D29259A8E0018E46A /* search.png */; };
 		ED0B344029259B140018E46A /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0B343F29259B140018E46A /* loc.png */; };
 		ED0B344229259FB10018E46A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B344129259FB10018E46A /* ViewController3.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		527EF993292B0A6B00C36AE4 /* GPSInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GPSInicio.png; path = imgs/GPSInicio.png; sourceTree = SOURCE_ROOT; };
+		527EF995292B0D1700C36AE4 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg"; path = "../../../Downloads/CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg"; sourceTree = "<group>"; };
 		ED0B343D29259A8E0018E46A /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = imgs/search.png; sourceTree = SOURCE_ROOT; };
 		ED0B343F29259B140018E46A /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loc.png; path = imgs/loc.png; sourceTree = SOURCE_ROOT; };
 		ED0B344129259FB10018E46A /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
@@ -140,7 +144,9 @@
 				ED0B343F29259B140018E46A /* loc.png */,
 				ED0B343D29259A8E0018E46A /* search.png */,
 				ED275EB129256FF5006CA2D5 /* aboutus.png */,
+				527EF993292B0A6B00C36AE4 /* GPSInicio.png */,
 				ED275EAD29256160006CA2D5 /* Logo.PNG */,
+				527EF995292B0D1700C36AE4 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */,
 				ED4189BA2924A5FD00A9941B /* menu.png */,
 				EDF1BDA7292448520041C04D /* HOME.png */,
 				EDF1BDA8292448520041C04D /* PROFILE.png */,
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF1BDAB292448520041C04D /* PROFILE.png in Resources */,
+				527EF994292B0A6C00C36AE4 /* GPSInicio.png in Resources */,
 				EDF1BDAA292448520041C04D /* HOME.png in Resources */,
 				ED38E57A29241E9A00A30ED1 /* LaunchScreen.storyboard in Resources */,
 				ED38E57729241E9A00A30ED1 /* Assets.xcassets in Resources */,
@@ -280,6 +287,7 @@
 				ED275EB229256FF5006CA2D5 /* aboutus.png in Resources */,
 				ED4189BB2924A5FD00A9941B /* menu.png in Resources */,
 				EDF1BDAC292448520041C04D /* SETTINGS.png in Resources */,
+				527EF996292B0D1700C36AE4 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg in Resources */,
 				ED38E57529241E9900A30ED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,9 +497,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RETO_APP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -502,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = IOTReto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,9 +527,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RXS4HM3L7Q;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RETO_APP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -530,7 +542,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "IOT.RETO-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = IOTReto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
