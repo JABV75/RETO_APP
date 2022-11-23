@@ -14,6 +14,10 @@
 		52EFF731292B400C000F3833 /* image_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF730292B400C000F3833 /* image_large.jpg */; };
 		52EFF734292B401C000F3833 /* tvazteca.brightspotcdn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF733292B401C000F3833 /* tvazteca.brightspotcdn.jpg */; };
 		52EFF736292B41F4000F3833 /* AntialcoholicaLOL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF735292B41F4000F3833 /* AntialcoholicaLOL.jpg */; };
+		52EFF738292B49CD000F3833 /* wallpaperLOGIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF737292B49CC000F3833 /* wallpaperLOGIN.jpg */; };
+		52EFF73A292B4B6C000F3833 /* WallpaperHomescreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF739292B4B6C000F3833 /* WallpaperHomescreen.jpg */; };
+		52EFF73C292B4CA3000F3833 /* WallpaperStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF73B292B4CA3000F3833 /* WallpaperStart.jpg */; };
+		52EFF73E292B4E1C000F3833 /* WallpaperReports.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF73D292B4E1B000F3833 /* WallpaperReports.jpg */; };
 		ED0B343E29259A8E0018E46A /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0B343D29259A8E0018E46A /* search.png */; };
 		ED0B344029259B140018E46A /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0B343F29259B140018E46A /* loc.png */; };
 		ED0B344229259FB10018E46A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B344129259FB10018E46A /* ViewController3.swift */; };
@@ -64,6 +68,10 @@
 		52EFF732292B4014000F3833 /* municipio-san-nicolas-conductor-permanece.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "municipio-san-nicolas-conductor-permanece.webp"; path = "imgs/municipio-san-nicolas-conductor-permanece.webp"; sourceTree = SOURCE_ROOT; };
 		52EFF733292B401C000F3833 /* tvazteca.brightspotcdn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tvazteca.brightspotcdn.jpg; path = imgs/tvazteca.brightspotcdn.jpg; sourceTree = SOURCE_ROOT; };
 		52EFF735292B41F4000F3833 /* AntialcoholicaLOL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AntialcoholicaLOL.jpg; path = imgs/AntialcoholicaLOL.jpg; sourceTree = SOURCE_ROOT; };
+		52EFF737292B49CC000F3833 /* wallpaperLOGIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wallpaperLOGIN.jpg; path = imgs/wallpaperLOGIN.jpg; sourceTree = SOURCE_ROOT; };
+		52EFF739292B4B6C000F3833 /* WallpaperHomescreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WallpaperHomescreen.jpg; path = imgs/WallpaperHomescreen.jpg; sourceTree = SOURCE_ROOT; };
+		52EFF73B292B4CA3000F3833 /* WallpaperStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WallpaperStart.jpg; path = imgs/WallpaperStart.jpg; sourceTree = SOURCE_ROOT; };
+		52EFF73D292B4E1B000F3833 /* WallpaperReports.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WallpaperReports.jpg; path = imgs/WallpaperReports.jpg; sourceTree = SOURCE_ROOT; };
 		ED0B343D29259A8E0018E46A /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = imgs/search.png; sourceTree = SOURCE_ROOT; };
 		ED0B343F29259B140018E46A /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loc.png; path = imgs/loc.png; sourceTree = SOURCE_ROOT; };
 		ED0B344129259FB10018E46A /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
@@ -156,7 +164,11 @@
 				ED0B343D29259A8E0018E46A /* search.png */,
 				52EFF72B292B3FAE000F3833 /* Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg */,
 				52EFF732292B4014000F3833 /* municipio-san-nicolas-conductor-permanece.webp */,
+				52EFF73B292B4CA3000F3833 /* WallpaperStart.jpg */,
+				52EFF739292B4B6C000F3833 /* WallpaperHomescreen.jpg */,
+				52EFF737292B49CC000F3833 /* wallpaperLOGIN.jpg */,
 				52EFF730292B400C000F3833 /* image_large.jpg */,
+				52EFF73D292B4E1B000F3833 /* WallpaperReports.jpg */,
 				52EFF72C292B3FAE000F3833 /* cierran-calles-centro-monterrey-desfile.jpeg */,
 				52EFF735292B41F4000F3833 /* AntialcoholicaLOL.jpg */,
 				52EFF72A292B3FAE000F3833 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */,
@@ -295,6 +307,7 @@
 			files = (
 				52EFF72F292B3FAE000F3833 /* cierran-calles-centro-monterrey-desfile.jpeg in Resources */,
 				EDF1BDAB292448520041C04D /* PROFILE.png in Resources */,
+				52EFF73E292B4E1C000F3833 /* WallpaperReports.jpg in Resources */,
 				527EF994292B0A6C00C36AE4 /* GPSInicio.png in Resources */,
 				EDF1BDAA292448520041C04D /* HOME.png in Resources */,
 				ED38E57A29241E9A00A30ED1 /* LaunchScreen.storyboard in Resources */,
@@ -304,12 +317,15 @@
 				ED275EAE29256160006CA2D5 /* Logo.PNG in Resources */,
 				ED0B343E29259A8E0018E46A /* search.png in Resources */,
 				52EFF736292B41F4000F3833 /* AntialcoholicaLOL.jpg in Resources */,
+				52EFF73A292B4B6C000F3833 /* WallpaperHomescreen.jpg in Resources */,
 				ED275EB229256FF5006CA2D5 /* aboutus.png in Resources */,
 				52EFF731292B400C000F3833 /* image_large.jpg in Resources */,
 				ED4189BB2924A5FD00A9941B /* menu.png in Resources */,
 				EDF1BDAC292448520041C04D /* SETTINGS.png in Resources */,
 				52EFF72D292B3FAE000F3833 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg in Resources */,
+				52EFF738292B49CD000F3833 /* wallpaperLOGIN.jpg in Resources */,
 				ED38E57529241E9900A30ED1 /* Main.storyboard in Resources */,
+				52EFF73C292B4CA3000F3833 /* WallpaperStart.jpg in Resources */,
 				52EFF734292B401C000F3833 /* tvazteca.brightspotcdn.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

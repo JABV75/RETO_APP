@@ -17,10 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WallpaperHomescreen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bHD-rl-KJY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJt-lK-ZcP">
                                 <rect key="frame" x="78" y="319" width="201" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.1843137443" green="0.29803922770000002" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.1305591642453425" green="0.21185158260813292" blue="0.38441051136363635" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Home" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="44"/>
                                     <color key="baseBackgroundColor" red="0.1843137443" green="0.29803922770000002" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -79,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="46.376811594202906" y="-2.6785714285714284"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="TRH-kL-coS">
@@ -89,6 +93,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WallpaperStart.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xPe-fy-cF7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEY-nP-gUG">
                                 <rect key="frame" x="20" y="72" width="28" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -226,14 +234,18 @@
             </objects>
             <point key="canvasLocation" x="857.97101449275374" y="-683.03571428571422"/>
         </scene>
-        <!--View Controller3-->
+        <!--View Controller-->
         <scene sceneID="LU0-r6-G7C">
             <objects>
-                <viewController id="Xs1-V8-LNe" customClass="ViewController3" customModule="RETO_APP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="View Controller" id="Xs1-V8-LNe" customClass="ViewController3" customModule="RETO_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXf-dD-JNJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaperLOGIN.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FzZ-Ya-6cO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Bienvenido de vuelta!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC2-hh-ANh">
                                 <rect key="frame" x="98" y="137" width="218" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -330,10 +342,6 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AntialcoholicaLOL.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lyG-8R-Ide">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GQE-A5-zcC"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -391,6 +399,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WallpaperReports.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hZg-er-10H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reportes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPQ-Tu-K7T">
                                 <rect key="frame" x="20" y="110" width="234" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -398,6 +410,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aH5-Hy-ywh">
+                                <rect key="frame" x="20" y="747" width="374" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Crear reporte">
+                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.1843137443" green="0.29803922770000002" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DHG-Ux-tTl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="5or-xu-lEo"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNK-cV-Xdu">
                                 <rect key="frame" x="20" y="72" width="28" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -515,18 +539,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aH5-Hy-ywh">
-                                <rect key="frame" x="20" y="747" width="374" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Crear reporte">
-                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                    <color key="baseBackgroundColor" red="0.1843137443" green="0.29803922770000002" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="DHG-Ux-tTl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="5or-xu-lEo"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hnt-ff-Jjx"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -675,6 +687,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dgq-bg-hCa"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="NFQ-cI-xfV" appends="YES" id="cIc-1k-NSM"/>
@@ -706,6 +719,9 @@
         <image name="HOME.png" width="29" height="39"/>
         <image name="PROFILE.png" width="24" height="32"/>
         <image name="SETTINGS.png" width="31" height="31"/>
+        <image name="WallpaperHomescreen.jpg" width="564" height="999"/>
+        <image name="WallpaperReports.jpg" width="564" height="1002"/>
+        <image name="WallpaperStart.jpg" width="564" height="1003"/>
         <image name="aboutus.png" width="21" height="17"/>
         <image name="cierran-calles-centro-monterrey-desfile.jpeg" width="864.75" height="526.5"/>
         <image name="image_large.jpg" width="1117" height="837"/>
@@ -716,6 +732,7 @@
         <image name="rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="search.png" width="28.5" height="28.5"/>
         <image name="tvazteca.brightspotcdn.jpg" width="968" height="723"/>
+        <image name="wallpaperLOGIN.jpg" width="474" height="843"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -724,6 +741,9 @@
         </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
