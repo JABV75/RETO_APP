@@ -234,10 +234,10 @@
             </objects>
             <point key="canvasLocation" x="857.97101449275374" y="-683.03571428571422"/>
         </scene>
-        <!--View Controller3-->
+        <!--View Controller-->
         <scene sceneID="LU0-r6-G7C">
             <objects>
-                <viewController id="Xs1-V8-LNe" customClass="ViewController3" customModule="RETO_APP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="View Controller" id="Xs1-V8-LNe" customClass="ViewController3" customModule="RETO_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HXf-dD-JNJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -687,6 +687,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dgq-bg-hCa"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="NFQ-cI-xfV" appends="YES" id="cIc-1k-NSM"/>
@@ -740,6 +741,9 @@
         </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
