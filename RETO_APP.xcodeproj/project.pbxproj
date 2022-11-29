@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520AB75E2935A73C0044D469 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AB75D2935A73C0044D469 /* ViewController7.swift */; };
+		520AB7602935C1C70044D469 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AB75F2935C1C70044D469 /* ViewController8.swift */; };
+		520AB7642935C7510044D469 /* Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 520AB7632935C7510044D469 /* Stats.png */; };
 		527EF994292B0A6C00C36AE4 /* GPSInicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 527EF993292B0A6B00C36AE4 /* GPSInicio.png */; };
 		52EFF72D292B3FAE000F3833 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF72A292B3FAE000F3833 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */; };
 		52EFF72E292B3FAE000F3833 /* Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EFF72B292B3FAE000F3833 /* Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520AB75D2935A73C0044D469 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		520AB75F2935C1C70044D469 /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		520AB7632935C7510044D469 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stats.png; path = imgs/Stats.png; sourceTree = SOURCE_ROOT; };
 		527EF993292B0A6B00C36AE4 /* GPSInicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GPSInicio.png; path = imgs/GPSInicio.png; sourceTree = SOURCE_ROOT; };
 		52EFF72A292B3FAE000F3833 /* CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg"; path = "imgs/CIUDAD-DE-MEXICO-LINEA-DE-BUSES-tateyama-Shutterstock.com-2.jpg"; sourceTree = SOURCE_ROOT; };
 		52EFF72B292B3FAE000F3833 /* Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg"; path = "imgs/Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg"; sourceTree = SOURCE_ROOT; };
@@ -156,12 +162,15 @@
 				ED0B34432925E3930018E46A /* ViewController4.swift */,
 				ED0B34452925E4430018E46A /* ViewController5.swift */,
 				ED0B34472926AB230018E46A /* ViewController6.swift */,
+				520AB75D2935A73C0044D469 /* ViewController7.swift */,
+				520AB75F2935C1C70044D469 /* ViewController8.swift */,
 				ED38E57329241E9900A30ED1 /* Main.storyboard */,
 				ED38E57629241E9A00A30ED1 /* Assets.xcassets */,
 				ED38E57829241E9A00A30ED1 /* LaunchScreen.storyboard */,
 				ED38E57B29241E9A00A30ED1 /* Info.plist */,
 				ED0B343F29259B140018E46A /* loc.png */,
 				ED0B343D29259A8E0018E46A /* search.png */,
+				520AB7632935C7510044D469 /* Stats.png */,
 				52EFF72B292B3FAE000F3833 /* Camioneta-Tesla-se-impacta-contra-Oxxo-en-Pachuca-no-hay-heridos.jpg */,
 				52EFF732292B4014000F3833 /* municipio-san-nicolas-conductor-permanece.webp */,
 				52EFF73B292B4CA3000F3833 /* WallpaperStart.jpg */,
@@ -307,6 +316,7 @@
 			files = (
 				52EFF72F292B3FAE000F3833 /* cierran-calles-centro-monterrey-desfile.jpeg in Resources */,
 				EDF1BDAB292448520041C04D /* PROFILE.png in Resources */,
+				520AB7642935C7510044D469 /* Stats.png in Resources */,
 				52EFF73E292B4E1C000F3833 /* WallpaperReports.jpg in Resources */,
 				527EF994292B0A6C00C36AE4 /* GPSInicio.png in Resources */,
 				EDF1BDAA292448520041C04D /* HOME.png in Resources */,
@@ -357,6 +367,8 @@
 				EDF1BDAE292495330041C04D /* ViewController2.swift in Sources */,
 				ED38E56E29241E9900A30ED1 /* AppDelegate.swift in Sources */,
 				ED0B34482926AB230018E46A /* ViewController6.swift in Sources */,
+				520AB75E2935A73C0044D469 /* ViewController7.swift in Sources */,
+				520AB7602935C1C70044D469 /* ViewController8.swift in Sources */,
 				ED38E57029241E9900A30ED1 /* SceneDelegate.swift in Sources */,
 				ED0B34462925E4430018E46A /* ViewController5.swift in Sources */,
 			);
